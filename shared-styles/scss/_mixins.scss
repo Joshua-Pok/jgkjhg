@@ -1,0 +1,67 @@
+@mixin spread-map($map: ()) {
+  $custom-properties-list: '--bg-surface-hover', '--bg-surface-active', '--bg-transparent-hover', '--bg-transparent-active', '--bg-disabled', '--text-placeholder', '--text-disabled';
+
+  @each $key, $value in $map {
+    @if index($custom-properties-list, $key) {
+      #{$key}: var(#{$value});
+    }
+
+    @else {
+      #{$key}: $value;
+    }
+  }
+}
+
+@mixin text-s {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+@mixin text-m {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+@mixin text-l {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@mixin heading-1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+@mixin heading-2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+@mixin heading-3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+@mixin heading-4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+@mixin heading-5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+@mixin heading-6 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}

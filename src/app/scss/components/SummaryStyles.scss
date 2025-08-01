@@ -1,0 +1,56 @@
+.ant-card-head-title{
+  color: #FFFFFFD9;
+}
+
+
+.ant-card.summary-card {
+  margin-top: 20px;
+  background-color: #1C1C1C;
+  width: 100%;
+  border: 1px solid #303030;
+}
+
+.ant-card.summary-card .summary-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.ant-card.summary-card .summary-dot {
+  border-radius: 50%;
+  background: #F5B60A;
+  width: 10px;
+  height: 10px;
+}
+
+.ant-card.summary-card .summary-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.summary-label {
+  color: white;
+}
+
+.summary-value{
+    color: white;
+}
+
+
+
+.ant-card .summary-versionitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-version-no {
+  width: 20%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 2px 8px;
+  margin-top: 5px;
+}

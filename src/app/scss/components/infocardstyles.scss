@@ -1,0 +1,26 @@
+.info-card-wrapper{
+width: 25%;
+height: 100%;
+background-color: #FFFFFF0A;
+border-radius: 10px;
+padding: 20px 24px;
+}
+
+.main-data{
+    color: #FFFFFFD9;
+    margin-bottom: 20px;
+}
+
+.info-card-title{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFFD9;
+    margin-bottom: 30px;
+}
+
+.sub-data{
+    width: 100%;
+    color: #FFFFFF73;
+    display: flex;
+    gap: 20px;
+}

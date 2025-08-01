@@ -1,0 +1,42 @@
+@use '../abstracts/mixins';
+// Header.scss
+
+#header-wrapper {
+  background-color: #1C1C1CD9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  position: sticky;
+  align-items: center;
+  border-bottom: 1px solid #303030;
+  
+  #left-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+
+      .dashboard-icon {
+        width: 16px; // 3rem = 48px
+        height: 16px;
+        display: flex;
+        align-items: center;
+      }
+      .dashboard-text {
+        font-size: 14px;
+        color: #FFFFFFD9;
+        margin: 0;
+      }
+  }
+  
+  #profile {
+    .avatar-icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+

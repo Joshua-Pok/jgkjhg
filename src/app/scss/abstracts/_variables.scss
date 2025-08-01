@@ -1,0 +1,47 @@
+$bg-base: #1C1C1C;
+$bg-surface: #212121;
+$bg-elevated: #303030;
+
+//Colours
+$base-text: #000000;
+$border-base: #D9D9D9
+
+
+//Opacity
+
+//Text Colors
+@mixin text-base{
+  color: #000000;
+  opacity: 0.85;
+}
+
+@mixin text-secondary{
+  color: $base-text;
+  opacity: 0.65;
+}
+
+@mixin text-tertiary{
+  color: $base-text;
+  opacity: 0.45;
+}
+
+@mixin text-quarternary{
+  color: $base-text;
+  opacity: 0.25;
+}
+
+@mixin border-base{
+  border-width: 2px;
+  border-color: #border-base;
+
+}
+
+@mixin border-secondary{
+  border-color: #EBEBEB;
+  border-width: 2px;
+}
+
+
+
+
+

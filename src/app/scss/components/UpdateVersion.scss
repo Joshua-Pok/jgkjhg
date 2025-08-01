@@ -1,0 +1,88 @@
+.css-dev-only-do-not-override-16dneet.ant-modal .ant-modal-content{
+  padding: 0;
+  border-radius: 15px;
+}
+
+.modal .ant-modal-header {
+  padding: 0;
+  margin: 0;
+  color: transparent;
+}
+
+.modal .ant-modal-body {
+  padding: 0 !important;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.modal .ant-modal-footer {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 608px;
+    width: 608px;
+    align-items: flex-start;
+    background-color: #303030;
+
+    #title{
+    color: white;
+    font-weight: 600;
+    }
+
+    #option{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%
+}
+
+#title-filter{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#checkboxes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    overflow-y: scroll;
+}
+
+#buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%
+    }
+}
+
+.ant-select{
+  background-color: #1c1c1c;
+}
+.option-select {
+  width: 100%;
+  color: white;
+  background-color: #1c1c1c;
+}
+
+.software-select {
+  width: 100%;
+}
+    

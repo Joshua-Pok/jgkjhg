@@ -1,0 +1,824 @@
+// BASIC COLOR
+// Black
+$black: #141414;
+$black-opacity-85: rgba($black, 0.85);
+$black-opacity-65: rgba($black, 0.65);
+$black-opacity-45: rgba($black, 0.45);
+$black-opacity-25: rgba($black, 0.25);
+$black-opacity-16: rgba($black, 0.16);
+$black-opacity-12: rgba($black, 0.12);
+$black-opacity-8: rgba($black, 0.08);
+$black-opacity-6: rgba($black, 0.06);
+$black-opacity-4: rgba($black, 0.04);
+$black-opacity-2: rgba($black, 0.02);
+
+// White
+$white: #FFFFFF;
+$white-opacity-85: rgba($white, 0.85);
+$white-opacity-65: rgba($white, 0.65);
+$white-opacity-45: rgba($white, 0.45);
+$white-opacity-25: rgba($white, 0.25);
+$white-opacity-16: rgba($white, 0.16);
+$white-opacity-12: rgba($white, 0.12);
+$white-opacity-8: rgba($white, 0.08);
+$white-opacity-6: rgba($white, 0.06);
+$white-opacity-4: rgba($white, 0.04);
+$white-opacity-2: rgba($white, 0.02);
+
+//Gray
+$gray-950: #1C1C1C;
+$gray-900: #212121;
+$gray-800: #303030;
+$gray-700: #424242;
+$gray-600: #595959;
+$gray-500: #737373;
+$gray-400: #A6A6A6;
+$gray-300: #D9D9D9;
+$gray-200: #EBEBEB;
+$gray-100: #F5F5F5;
+$gray-50: #FAFAFA;
+
+//Neutral
+$neutral-950: #181B1F;
+$neutral-900: #1F2229;
+$neutral-800: #292E37;
+$neutral-700: #343A45;
+$neutral-600: #4D5666;
+$neutral-500: #677389;
+$neutral-400: #97A2B6;
+$neutral-300: #CDD5E0;
+$neutral-200: #E3E8EF;
+$neutral-100: #F2F5F9;
+$neutral-50: #F8FAFC;
+
+//Red
+$red-900: #401C1C;
+$red-800: #5E1B1B;
+$red-700: #8A2727;
+$red-600: #BC3636;
+$red-500: #EB4343;
+$red-400: #FC6969;
+$red-300: #FFA8A8;
+$red-200: #FFC8C8;
+$red-100: #FEEFEF;
+
+//Orange
+$orange-900: #3D2218;
+$orange-800: #5C2A07;
+$orange-700: #8F4511;
+$orange-600: #C75B10;
+$orange-500: #F97214;
+$orange-400: #FB923C;
+$orange-300: #FCBA74;
+$orange-200: #FFD4A3;
+$orange-100: #FFF0E0;
+
+//Yellow
+$yellow-900: #372707;
+$yellow-800: #4D380F;
+$yellow-700: #855E10;
+$yellow-600: #C3850B;
+$yellow-500: #F5B60A;
+$yellow-400: #F7C53B;
+$yellow-300: #F9D36C;
+$yellow-200: #FBE29D;
+$yellow-100: #FFF7D1;
+
+//Lime 
+$lime-900: #1F2E01;
+$lime-800: #2D4203;
+$lime-700: #476410;
+$lime-600: #608811;
+$lime-500: #7CAF30;
+$lime-400: #96BF59;
+$lime-300: #B0CF83;
+$lime-200: #CBE0AB;
+$lime-100: #ECF5E1;
+
+//Green 
+$green-900: #063017;
+$green-800: #0B4420;
+$green-700: #016527;
+$green-600: #0A8236;
+$green-500: #1CAA51;
+$green-400: #4CC278;
+$green-300: #8ED5A8;
+$green-200: #B8E6C9;
+$green-100: #E6F5EC;
+
+//Teal
+$teal-900: #06302E;
+$teal-800: #09473F;
+$teal-700: #00665C;
+$teal-600: #008E7B;
+$teal-500: #14B8A2;
+$teal-400: #5BCDBE;
+$teal-300: #8ADCD1;
+$teal-200: #B0E8E0;
+$teal-100: #E5F8F3;
+
+//Sky
+$sky-900: #102E42;
+$sky-800: #0E4463;
+$sky-700: #005A8B;
+$sky-600: #0983C2;
+$sky-500: #0AB6F5;
+$sky-400: #55C5EF;
+$sky-300: #89D8F5;
+$sky-200: #BAE5F5;
+$sky-100: #E8F9FF;
+
+//Blue
+$blue-900: #152A4D;
+$blue-800: #1A3E78;
+$blue-700: #2655A3;
+$blue-600: #2F68C5;
+$blue-500: #3B82F6;
+$blue-400: #629BF8;
+$blue-300: #9DC1FB;
+$blue-200: #C4DAFC;
+$blue-100: #ECF4FF;
+
+//Indigo
+$indigo-900: #292657;
+$indigo-800: #35317A;
+$indigo-700: #484AA3;
+$indigo-600: #4F52C1;
+$indigo-500: #6366F1;
+$indigo-400: #868EF6;
+$indigo-300: #B1B3F8;
+$indigo-200: #D0D1FB;
+$indigo-100: #EEF2FE;
+
+//Purple
+$purple-900: #362452;
+$purple-800: #4A2870;
+$purple-700: #683B94;
+$purple-600: #8343C0;
+$purple-500: #A454F0;
+$purple-400: #B676F3;
+$purple-300: #D2AAF8;
+$purple-200: #E4CCFB;
+$purple-100: #F7F0FF;
+
+//Magenta
+$magenta-900: #3C1B41;
+$magenta-800: #532759;
+$magenta-700: #7B3A85;
+$magenta-600: #A048AD;
+$magenta-500: #C85AD8;
+$magenta-400: #D37BE0;
+$magenta-300: #E4ADEC;
+$magenta-200: #EFCEF3;
+$magenta-100: #FCEDFF;
+
+//Pink
+$pink-900: #421B2E;
+$pink-800: #5C213E;
+$pink-700: #8E2B5C;
+$pink-600: #BD3A7A;
+$pink-500: #EC4899;
+$pink-400: #F06DAD;
+$pink-300: #F6A4CC;
+$pink-200: #F9C8E0;
+$pink-100: #FFF0F8;
+
+//Rose
+$rose-900: #421B21;
+$rose-800: #5E222D;
+$rose-700: #922638;
+$rose-600: #C3324B;
+$rose-500: #F43F5E;
+$rose-400: #F6657E;
+$rose-300: #FA9FAF;
+$rose-200: #FFC7D1;
+$rose-100: #FFF0F2;
+
+//Background
+$bg-base: --bg-base;
+$bg-base-alt: --bg-base-alt;
+$bg-surface: --bg-surface;
+$bg-elevated: --bg-elevated;
+$bg-spotlight: --bg-spotlight;
+$bg-overlay: --bg-overlay;
+$bg-fill: --bg-fill;
+$bg-fill-secondary: --bg-fill-secondary;
+$bg-fill-tertiary: --bg-fill-tertiary;
+$bg-fill-quaternary: --bg-fill-quaternary;
+$bg-white: --bg-white;
+$bg-black: --bg-black;
+$bg-surface-hover: --bg-surface-hover;
+$bg-surface-active: --bg-surface-active;
+$bg-transparent-hover: --bg-transparent-hover;
+$bg-transparent-active: --bg-transparent-active;
+$bg-disabled: --bg-disabled;
+
+//Border
+$border-base: --border-base;
+$border-base-opacity: --border-base-opacity;
+$border-secondary: --border-secondary;
+$border-secondary-opacity: --border-secondary-opacity;
+$border-white: --border-white;
+$border-black: --border-black;
+
+//Text
+$text-base: --text-base;
+$text-secondary: --text-secondary;
+$text-tertiary: --text-tertiary;
+$text-quaternary: --text-quaternary;
+$text-white: --text-white;
+$text-black: --text-black;
+$text-placeholder: --text-placeholder;
+$text-disabled: --text-disabled;
+
+//Primary
+$primary: --primary;
+$primary-hover: --primary-hover;
+$primary-active: --primary-active;
+$primary-bg: --primary-bg;
+$primary-bg-subtle: --primary-bg-subtle;
+$primary-bg-subtle-fixed: --primary-bg-subtle-fixed;
+$primary-border-subtle: --primary-border-subtle;
+$primary-border-subtle-fixed: --primary-border-subtle-fixed;
+$primary-text: --primary-text;
+$primary-text-subtle: --primary-text-subtle;
+$primary-text-subtle-fixed: --primary-text-subtle-fixed;
+
+//Success
+$success: --success;
+$success-hover: --success-hover;
+$success-active: --success-active;
+$success-bg: --success-bg;
+$success-bg-subtle: --success-bg-subtle;
+$success-bg-subtle-fixed: --success-bg-subtle-fixed;
+$success-border-subtle: --success-border-subtle;
+$success-border-subtle-fixed: --success-border-subtle-fixed;
+$success-text: --success-text;
+$success-text-subtle: --success-text-subtle;
+$success-text-subtle-fixed: --success-text-subtle-fixed;
+
+//Warning
+$warning: --warning;
+$warning-hover: --warning-hover;
+$warning-active: --warning-active;
+$warning-bg: --warning-bg;
+$warning-bg-subtle: --warning-bg-subtle;
+$warning-bg-subtle-fixed: --warning-bg-subtle-fixed;
+$warning-border-subtle: --warning-border-subtle;
+$warning-border-subtle-fixed: --warning-border-subtle-fixed;
+$warning-text: --warning-text;
+$warning-text-subtle: --warning-text-subtle;
+$warning-text-subtle-fixed: --warning-text-subtle-fixed;
+
+//Danger
+$danger: --danger;
+$danger-hover: --danger-hover;
+$danger-active: --danger-active;
+$danger-bg: --danger-bg;
+$danger-bg-subtle: --danger-bg-subtle;
+$danger-bg-subtle-fixed: --danger-bg-subtle-fixed;
+$danger-border-subtle: --danger-border-subtle;
+$danger-border-subtle-fixed: --danger-border-subtle-fixed;
+$danger-text: --danger-text;
+$danger-text-subtle: --danger-text-subtle;
+$danger-text-subtle-fixed: --danger-text-subtle-fixed;
+
+//Orange
+$orange: --orange;
+$orange-hover: --orange-hover;
+$orange-active: --orange-active;
+$orange-bg: --orange-bg;
+$orange-bg-subtle: --orange-bg-subtle;
+$orange-bg-subtle-fixed: --orange-bg-subtle-fixed;
+$orange-border-subtle: --orange-border-subtle;
+$orange-border-subtle-fixed: --orange-border-subtle-fixed;
+$orange-text: --orange-text;
+$orange-text-subtle: --orange-text-subtle;
+$orange-text-subtle-fixed: --orange-text-subtle-fixed;
+
+//Lime
+$lime: --lime;
+$lime-hover: --lime-hover;
+$lime-active: --lime-active;
+$lime-bg: --lime-bg;
+$lime-bg-subtle: --lime-bg-subtle;
+$lime-bg-subtle-fixed: --lime-bg-subtle-fixed;
+$lime-border-subtle: --lime-border-subtle;
+$lime-border-subtle-fixed: --lime-border-subtle-fixed;
+$lime-text: --lime-text;
+$lime-text-subtle: --lime-text-subtle;
+$lime-text-subtle-fixed: --lime-text-subtle-fixed;
+
+//Teal
+$teal: --teal;
+$teal-hover: --teal-hover;
+$teal-active: --teal-active;
+$teal-bg: --teal-bg;
+$teal-bg-subtle: --teal-bg-subtle;
+$teal-bg-subtle-fixed: --teal-bg-subtle-fixed;
+$teal-border-subtle: --teal-border-subtle;
+$teal-border-subtle-fixed: --teal-border-subtle-fixed;
+$teal-text: --teal-text;
+$teal-text-subtle: --teal-text-subtle;
+$teal-text-subtle-fixed: --teal-text-subtle-fixed;
+
+//Sky
+$sky: --sky;
+$sky-hover: --sky-hover;
+$sky-active: --sky-active;
+$sky-bg: --sky-bg;
+$sky-bg-subtle: --sky-bg-subtle;
+$sky-bg-subtle-fixed: --sky-bg-subtle-fixed;
+$sky-border-subtle: --sky-border-subtle;
+$sky-border-subtle-fixed: --sky-border-subtle-fixed;
+$sky-text: --sky-text;
+$sky-text-subtle: --sky-text-subtle;
+$sky-text-subtle-fixed: --sky-text-subtle-fixed;
+
+//Indigo
+$indigo: --indigo;
+$indigo-hover: --indigo-hover;
+$indigo-active: --indigo-active;
+$indigo-bg: --indigo-bg;
+$indigo-bg-subtle: --indigo-bg-subtle;
+$indigo-bg-subtle-fixed: --indigo-bg-subtle-fixed;
+$indigo-border-subtle: --indigo-border-subtle;
+$indigo-border-subtle-fixed: --indigo-border-subtle-fixed;
+$indigo-text: --indigo-text;
+$indigo-text-subtle: --indigo-text-subtle;
+$indigo-text-subtle-fixed: --indigo-text-subtle-fixed;
+
+//Purple
+$purple: --purple;
+$purple-hover: --purple-hover;
+$purple-active: --purple-active;
+$purple-bg: --purple-bg;
+$purple-bg-subtle: --purple-bg-subtle;
+$purple-bg-subtle-fixed: --purple-bg-subtle-fixed;
+$purple-border-subtle: --purple-border-subtle;
+$purple-border-subtle-fixed: --purple-border-subtle-fixed;
+$purple-text: --purple-text;
+$purple-text-subtle: --purple-text-subtle;
+$purple-text-subtle-fixed: --purple-text-subtle-fixed;
+
+//Magenta
+$magenta: --magenta;
+$magenta-hover: --magenta-hover;
+$magenta-active: --magenta-active;
+$magenta-bg: --magenta-bg;
+$magenta-bg-subtle: --magenta-bg-subtle;
+$magenta-bg-subtle-fixed: --magenta-bg-subtle-fixed;
+$magenta-border-subtle: --magenta-border-subtle;
+$magenta-border-subtle-fixed: --magenta-border-subtle-fixed;
+$magenta-text: --magenta-text;
+$magenta-text-subtle: --magenta-text-subtle;
+$magenta-text-subtle-fixed: --magenta-text-subtle-fixed;
+
+//Pink
+$pink: --pink;
+$pink-hover: --pink-hover;
+$pink-active: --pink-active;
+$pink-bg: --pink-bg;
+$pink-bg-subtle: --pink-bg-subtle;
+$pink-bg-subtle-fixed: --pink-bg-subtle-fixed;
+$pink-border-subtle: --pink-border-subtle;
+$pink-border-subtle-fixed: --pink-border-subtle-fixed;
+$pink-text: --pink-text;
+$pink-text-subtle: --pink-text-subtle;
+$pink-text-subtle-fixed: --pink-text-subtle-fixed;
+
+//Rose
+$rose: --rose;
+$rose-hover: --rose-hover;
+$rose-active: --rose-active;
+$rose-bg: --rose-bg;
+$rose-bg-subtle: --rose-bg-subtle;
+$rose-bg-subtle-fixed: --rose-bg-subtle-fixed;
+$rose-border-subtle: --rose-border-subtle;
+$rose-border-subtle-fixed: --rose-border-subtle-fixed;
+$rose-text: --rose-text;
+$rose-text-subtle: --rose-text-subtle;
+$rose-text-subtle-fixed: --rose-text-subtle-fixed;
+
+// Default theme
+$theme-map-light: (
+  //Background
+  $bg-base: $gray-50,
+  $bg-base-alt: $white,
+  $bg-surface: $white,
+  $bg-elevated: $white,
+  $bg-spotlight: $black-opacity-85,
+  $bg-overlay: $black-opacity-45,
+  $bg-fill: $black-opacity-12,
+  $bg-fill-secondary: $black-opacity-8,
+  $bg-fill-tertiary: $black-opacity-4,
+  $bg-fill-quaternary: $black-opacity-2,
+  $bg-white: $white,
+  $bg-black: $black,
+  $bg-surface-hover: $bg-fill-tertiary,
+  $bg-surface-active: $bg-fill-secondary,
+  $bg-transparent-hover: $bg-fill-tertiary,
+  $bg-transparent-active: $bg-fill-secondary,
+  $bg-disabled: $bg-fill-tertiary,
+
+
+  //Border
+  $border-base: $gray-300,
+  $border-base-opacity: $black-opacity-16,
+  $border-secondary: $gray-200,
+  $border-secondary-opacity: $black-opacity-8,
+  $border-white: $white,
+  $border-black: $black,
+
+
+  //Text
+  $text-base: $black-opacity-85,
+  $text-secondary: $black-opacity-65,
+  $text-tertiary: $black-opacity-45,
+  $text-quaternary: $black-opacity-25,
+  $text-white: $white,
+  $text-black: $black,
+  $text-placeholder: $text-quaternary,
+  $text-disabled: $text-quaternary,
+
+
+  //Primary
+  $primary: $blue-500,
+  $primary-hover: $blue-600,
+  $primary-active: $blue-700,
+  $primary-bg-subtle: $blue-100,
+  $primary-bg-subtle-fixed: $blue-100,
+  $primary-border-subtle: $blue-200,
+  $primary-border-subtle-fixed: $blue-200,
+  $primary-text: $blue-500,
+  $primary-text-subtle: $blue-700,
+  $primary-text-subtle-fixed: $blue-700,
+
+
+  //Success
+  $success: $green-500,
+  $success-hover: $green-600,
+  $success-active: $green-700,
+  $success-bg-subtle: $green-100,
+  $success-bg-subtle-fixed: $green-100,
+  $success-border-subtle: $green-200,
+  $success-border-subtle-fixed: $green-200,
+  $success-text: $green-500,
+  $success-text-subtle: $green-700,
+  $success-text-subtle-fixed: $green-700,
+
+
+  //Warning
+  $warning: $yellow-500,
+  $warning-hover: $yellow-600,
+  $warning-active: $yellow-700,
+  $warning-bg-subtle: $yellow-100,
+  $warning-bg-subtle-fixed: $yellow-100,
+  $warning-border-subtle: $yellow-200,
+  $warning-border-subtle-fixed: $yellow-200,
+  $warning-text: $yellow-500,
+  $warning-text-subtle: $yellow-700,
+  $warning-text-subtle-fixed: $yellow-700,
+
+
+  //Danger
+  $danger: $red-500,
+  $danger-hover: $red-600,
+  $danger-active: $red-700,
+  $danger-bg-subtle: $red-100,
+  $danger-bg-subtle-fixed: $red-100,
+  $danger-border-subtle: $red-200,
+  $danger-border-subtle-fixed: $red-200,
+  $danger-text: $red-500,
+  $danger-text-subtle: $red-700,
+  $danger-text-subtle-fixed: $red-700,
+
+
+  //Orange
+  $orange: $orange-500,
+  $orange-hover: $orange-600,
+  $orange-active: $orange-700,
+  $orange-bg-subtle: $orange-100,
+  $orange-bg-subtle-fixed: $orange-100,
+  $orange-border-subtle: $orange-200,
+  $orange-border-subtle-fixed: $orange-200,
+  $orange-text: $orange-500,
+  $orange-text-subtle: $orange-700,
+  $orange-text-subtle-fixed: $orange-700,
+
+
+  //Lime
+  $lime: $lime-500,
+  $lime-hover: $lime-600,
+  $lime-active: $lime-700,
+  $lime-bg-subtle: $lime-100,
+  $lime-bg-subtle-fixed: $lime-100,
+  $lime-border-subtle: $lime-200,
+  $lime-border-subtle-fixed: $lime-200,
+  $lime-text: $lime-500,
+  $lime-text-subtle: $lime-700,
+  $lime-text-subtle-fixed: $lime-700,
+
+
+  //Teal
+  $teal: $teal-500,
+  $teal-hover: $teal-600,
+  $teal-active: $teal-700,
+  $teal-bg-subtle: $teal-100,
+  $teal-bg-subtle-fixed: $teal-100,
+  $teal-border-subtle: $teal-200,
+  $teal-border-subtle-fixed: $teal-200,
+  $teal-text: $teal-500,
+  $teal-text-subtle: $teal-700,
+  $teal-text-subtle-fixed: $teal-700,
+
+
+  //Sky
+  $sky: $sky-500,
+  $sky-hover: $sky-600,
+  $sky-active: $sky-700,
+  $sky-bg-subtle: $sky-100,
+  $sky-bg-subtle-fixed: $sky-100,
+  $sky-border-subtle: $sky-200,
+  $sky-border-subtle-fixed: $sky-200,
+  $sky-text: $sky-500,
+  $sky-text-subtle: $sky-700,
+  $sky-text-subtle-fixed: $sky-700,
+
+
+  //Indigo
+  $indigo: $indigo-500,
+  $indigo-hover: $indigo-600,
+  $indigo-active: $indigo-700,
+  $indigo-bg-subtle: $indigo-100,
+  $indigo-bg-subtle-fixed: $indigo-100,
+  $indigo-border-subtle: $indigo-200,
+  $indigo-border-subtle-fixed: $indigo-200,
+  $indigo-text: $indigo-500,
+  $indigo-text-subtle: $indigo-700,
+  $indigo-text-subtle-fixed: $indigo-700,
+
+
+  //Purple
+  $purple: $purple-500,
+  $purple-hover: $purple-600,
+  $purple-active: $purple-700,
+  $purple-bg-subtle: $purple-100,
+  $purple-bg-subtle-fixed: $purple-100,
+  $purple-border-subtle: $purple-200,
+  $purple-border-subtle-fixed: $purple-200,
+  $purple-text: $purple-500,
+  $purple-text-subtle: $purple-700,
+  $purple-text-subtle-fixed: $purple-700,
+
+
+  //Magenta
+  $magenta: $magenta-500,
+  $magenta-hover: $magenta-600,
+  $magenta-active: $magenta-700,
+  $magenta-bg-subtle: $magenta-100,
+  $magenta-bg-subtle-fixed: $magenta-100,
+  $magenta-border-subtle: $magenta-200,
+  $magenta-border-subtle-fixed: $magenta-200,
+  $magenta-text: $magenta-500,
+  $magenta-text-subtle: $magenta-700,
+  $magenta-text-subtle-fixed: $magenta-700,
+
+
+  //Pink
+  $pink: $pink-500,
+  $pink-hover: $pink-600,
+  $pink-active: $pink-700,
+  $pink-bg-subtle: $pink-100,
+  $pink-bg-subtle-fixed: $pink-100,
+  $pink-border-subtle: $pink-200,
+  $pink-border-subtle-fixed: $pink-200,
+  $pink-text: $pink-500,
+  $pink-text-subtle: $pink-700,
+  $pink-text-subtle-fixed: $pink-700,
+
+
+  //Rose
+  $rose: $rose-500,
+  $rose-hover: $rose-600,
+  $rose-active: $rose-700,
+  $rose-bg-subtle: $rose-100,
+  $rose-bg-subtle-fixed: $rose-100,
+  $rose-border-subtle: $rose-200,
+  $rose-border-subtle-fixed: $rose-200,
+  $rose-text: $rose-500,
+  $rose-text-subtle: $rose-700,
+  $rose-text-subtle-fixed: $rose-700,
+);
+
+// Override the default light theme
+$theme-map-dark: (
+  //Background
+  $bg-base: $gray-950,
+  $bg-base-alt: $gray-950,
+  $bg-surface: $gray-900,
+  $bg-elevated: $gray-800,
+  $bg-spotlight: $black-opacity-85,
+  $bg-overlay: $black-opacity-45,
+  $bg-fill: $white-opacity-25,
+  $bg-fill-secondary: $white-opacity-12,
+  $bg-fill-tertiary: $white-opacity-8,
+  $bg-fill-quaternary: $white-opacity-4,
+  $bg-white: $white,
+  $bg-black: $black,
+  $bg-surface-hover: $bg-fill-tertiary,
+  $bg-surface-active: $bg-fill-secondary,
+  $bg-transparent-hover: $bg-fill-tertiary,
+  $bg-transparent-active: $bg-fill-secondary,
+  $bg-disabled: $bg-fill-tertiary,
+
+
+  //Border
+  $border-base: $gray-700,
+  $border-base-opacity: $white-opacity-16,
+  $border-secondary: $gray-800,
+  $border-secondary-opacity: $white-opacity-8,
+  $border-white: $white,
+  $border-black: $black,
+
+
+  //Text
+  $text-base: $white-opacity-85,
+  $text-secondary: $white-opacity-65,
+  $text-tertiary: $white-opacity-45,
+  $text-quaternary: $white-opacity-25,
+  $text-white: $white,
+  $text-black: $black,
+  $text-placeholder: $text-quaternary,
+  $text-disabled: $text-quaternary,
+
+
+  //Primary
+  $primary: $blue-500,
+  $primary-hover: $blue-400,
+  $primary-active: $blue-300,
+  $primary-bg-subtle: $blue-900,
+  $primary-bg-subtle-fixed: $blue-200,
+  $primary-border-subtle: $blue-800,
+  $primary-border-subtle-fixed: $blue-200,
+  $primary-text: $blue-300,
+  $primary-text-subtle: $blue-300,
+  $primary-text-subtle-fixed: $blue-700,
+
+
+  //Success
+  $success: $green-500,
+  $success-hover: $green-400,
+  $success-active: $green-300,
+  $success-bg-subtle: $green-900,
+  $success-bg-subtle-fixed: $green-200,
+  $success-border-subtle: $green-800,
+  $success-border-subtle-fixed: $green-200,
+  $success-text: $green-300,
+  $success-text-subtle: $green-300,
+  $success-text-subtle-fixed: $green-700,
+
+
+  //Warning
+  $warning: $yellow-500,
+  $warning-hover: $yellow-400,
+  $warning-active: $yellow-300,
+  $warning-bg-subtle: $yellow-900,
+  $warning-bg-subtle-fixed: $yellow-200,
+  $warning-border-subtle: $yellow-800,
+  $warning-border-subtle-fixed: $yellow-200,
+  $warning-text: $yellow-300,
+  $warning-text-subtle: $yellow-300,
+  $warning-text-subtle-fixed: $yellow-700,
+
+
+  //Danger
+  $danger: $red-500,
+  $danger-hover: $red-400,
+  $danger-active: $red-300,
+  $danger-bg-subtle: $red-900,
+  $danger-bg-subtle-fixed: $red-200,
+  $danger-border-subtle: $red-800,
+  $danger-border-subtle-fixed: $red-200,
+  $danger-text: $red-300,
+  $danger-text-subtle: $red-300,
+  $danger-text-subtle-fixed: $red-700,
+
+
+  //Orange
+  $orange: $orange-500,
+  $orange-hover: $orange-400,
+  $orange-active: $orange-300,
+  $orange-bg-subtle: $orange-900,
+  $orange-bg-subtle-fixed: $orange-200,
+  $orange-border-subtle: $orange-800,
+  $orange-border-subtle-fixed: $orange-200,
+  $orange-text: $orange-300,
+  $orange-text-subtle: $orange-300,
+  $orange-text-subtle-fixed: $orange-700,
+
+
+  //Lime
+  $lime: $lime-500,
+  $lime-hover: $lime-400,
+  $lime-active: $lime-300,
+  $lime-bg-subtle: $lime-900,
+  $lime-bg-subtle-fixed: $lime-200,
+  $lime-border-subtle: $lime-800,
+  $lime-border-subtle-fixed: $lime-200,
+  $lime-text: $lime-300,
+  $lime-text-subtle: $lime-300,
+  $lime-text-subtle-fixed: $lime-700,
+
+
+  //Teal
+  $teal: $teal-500,
+  $teal-hover: $teal-400,
+  $teal-active: $teal-300,
+  $teal-bg-subtle: $teal-900,
+  $teal-bg-subtle-fixed: $teal-200,
+  $teal-border-subtle: $teal-800,
+  $teal-border-subtle-fixed: $teal-200,
+  $teal-text: $teal-300,
+  $teal-text-subtle: $teal-300,
+  $teal-text-subtle-fixed: $teal-700,
+
+
+  //Sky
+  $sky: $sky-500,
+  $sky-hover: $sky-400,
+  $sky-active: $sky-300,
+  $sky-bg-subtle: $sky-900,
+  $sky-bg-subtle-fixed: $sky-200,
+  $sky-border-subtle: $sky-800,
+  $sky-border-subtle-fixed: $sky-200,
+  $sky-text: $sky-300,
+  $sky-text-subtle: $sky-300,
+  $sky-text-subtle-fixed: $sky-700,
+
+
+  //Indigo
+  $indigo: $indigo-500,
+  $indigo-hover: $indigo-400,
+  $indigo-active: $indigo-300,
+  $indigo-bg-subtle: $indigo-900,
+  $indigo-bg-subtle-fixed: $indigo-200,
+  $indigo-border-subtle: $indigo-800,
+  $indigo-border-subtle-fixed: $indigo-200,
+  $indigo-text: $indigo-300,
+  $indigo-text-subtle: $indigo-300,
+  $indigo-text-subtle-fixed: $indigo-700,
+
+
+  //Purple
+  $purple: $purple-500,
+  $purple-hover: $purple-400,
+  $purple-active: $purple-300,
+  $purple-bg-subtle: $purple-900,
+  $purple-bg-subtle-fixed: $purple-200,
+  $purple-border-subtle: $purple-800,
+  $purple-border-subtle-fixed: $purple-200,
+  $purple-text: $purple-300,
+  $purple-text-subtle: $purple-300,
+  $purple-text-subtle-fixed: $purple-700,
+
+
+  //Magenta
+  $magenta: $magenta-500,
+  $magenta-hover: $magenta-400,
+  $magenta-active: $magenta-200,
+  $magenta-bg-subtle: $magenta-900,
+  $magenta-bg-subtle-fixed: $magenta-200,
+  $magenta-border-subtle: $magenta-800,
+  $magenta-border-subtle-fixed: $magenta-200,
+  $magenta-text: $magenta-300,
+  $magenta-text-subtle: $magenta-300,
+  $magenta-text-subtle-fixed: $magenta-700,
+
+
+  //Pink
+  $pink: $pink-500,
+  $pink-hover: $pink-400,
+  $pink-active: $pink-300,
+  $pink-bg-subtle: $pink-900,
+  $pink-bg-subtle-fixed: $pink-200,
+  $pink-border-subtle: $pink-800,
+  $pink-border-subtle-fixed: $pink-200,
+  $pink-text: $pink-300,
+  $pink-text-subtle: $pink-300,
+  $pink-text-subtle-fixed: $pink-700,
+
+
+  //Rose
+  $rose: $rose-500,
+  $rose-hover: $rose-400,
+  $rose-active: $rose-300,
+  $rose-bg-subtle: $rose-900,
+  $rose-bg-subtle-fixed: $rose-200,
+  $rose-border-subtle: $rose-800,
+  $rose-border-subtle-fixed: $rose-200,
+  $rose-text: $rose-300,
+  $rose-text-subtle: $rose-300,
+  $rose-text-subtle-fixed: $rose-700,
+);
+

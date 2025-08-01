@@ -1,0 +1,127 @@
+.content-wrapper{
+    background-color: #1c1c1c;
+    padding: 0px 30px;
+    height: auto;
+}
+.welcome-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.welcome-text{
+    color: #FFFFFFD9;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #1c1c1c;
+}
+
+// .info{
+//     display: flex;
+//     gap: 20px;
+// }
+
+.summarysearch{
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+// .filterTable{
+//     align-items: center;
+//     justify-content: center;
+//     max-width: 80%;
+// }
+.vehicle-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.left-section{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-section{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar{
+    width: 100%;
+    height: 100%;
+
+}
+.filter{
+    padding-bottom: 15px;
+} 
+
+.card-section{
+  display: flex;
+  gap: 32px;
+  height: 160px;
+  width: 100%;
+}
+
+
+.banner-content {
+  margin: 0;
+  height: 200px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  justify-content: center;
+  background: #364d79;
+  border-radius: 20px;
+}
+
+.custom-input {
+  background-color: #303030;
+  color: white;
+}
+
+.custom-input::placeholder {
+  color: white;
+}
+
+.custom-tabs .ant-tabs-tab-btn {
+  color: white;
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #F5B60A;
+}
+
+.tab-item {
+  display: flex;
+  gap: 8px;
+}
+
+.tab-badge {
+  display: flex;
+  padding: 0px 6px;
+  border-radius: 50%;
+  width: 25px;
+  height: 20px;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+}
+
+.DataTable{
+  width: 100%;
+}
+.test-content{
+  width: 100%;
+  height: auto;
+}

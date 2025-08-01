@@ -1,0 +1,48 @@
+.ant-table-wrapper{
+        border: 1px solid #303030 !important;
+        max-width: 100%;
+    }
+
+.ant-table-thead{
+    height: 56hpx;
+}
+
+:where(.css-dev-only-do-not-override-16dneet)[class^="ant-table"] [class^="ant-table"], :where(.css-dev-only-do-not-override-16dneet)[class*=" ant-table"] [class^="ant-table"], :where(.css-dev-only-do-not-override-16dneet)[class^="ant-table"] [class*=" ant-table"], :where(.css-dev-only-do-not-override-16dneet)[class*=" ant-table"] [class*=" ant-table"]{
+    font-size: 14px;
+    color: #FFFFFFD9;
+
+}
+
+.ant-table-thead{
+    height: 56px;
+}
+
+
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+    width: auto;
+  padding: 16px 8px !important; 
+}
+    
+.ant-table-thead > tr > th{
+        background-color: #303030 !important;
+        color: white !important;
+        border: 1px solid #303030 !important;
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+.ant-table-tbody{
+        background-color: #1C1C1C;
+        color: #FFFFFFD9;
+        font-size: 8px;
+    }
+
+.ant-table-tbody > tr:hover > td {
+  background-color: transparent !important;
+}
+
+.ant-pagination-item {
+    background-color: #1c1c1c; /* Custom background color for non-active items */
+    color: white; /* Custom text color for non-active items */
+}

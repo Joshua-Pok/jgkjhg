@@ -1,0 +1,35 @@
+@import '_mixins.scss';
+
+// FONT
+$font-family: -apple-system,        /* iOS/macOS system fonts */
+BlinkMacSystemFont,   /* macOS system fonts */
+'Segoe UI',           /* Windows system fonts */
+Roboto,               /* Roboto as fallback */
+'Helvetica Neue',     /* macOS system fonts */
+Arial,                /* Default sans-serif font */
+sans-serif,           /* Fallback sans-serif font */
+"Apple Color Emoji",  /* Emoji fonts (iOS/macOS) */
+"Segoe UI Emoji",     /* Emoji fonts (Windows) */
+"Segoe UI Symbol";    /* Symbol fonts (Windows) */
+
+// RADIUS
+$radius-s: 4px;
+$radius-m: 6px;
+$radius-l: 8px;
+
+// SPACE
+// MARGIN
+$margin-xs: 4px;
+$margin-s: 8px;
+$margin-m: 16px;
+$margin-l: 24px;
+$margin-xl: 32px;
+$margin-xxl: 40px;
+
+// PADDING
+$padding-xs: 4px;
+$padding-s: 8px;
+$padding-m: 16px;
+$padding-l: 24px;
+$padding-xl: 32px;
+$padding-xxl: 40px;

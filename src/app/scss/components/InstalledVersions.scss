@@ -1,0 +1,43 @@
+.ant-card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ant-card-head-title{
+  color: #FFFFFFD9;
+}
+
+.ant-card.versions-card {
+  margin-top: 20px;
+  background-color: #1C1C1C;
+  width: 100%;
+  max-height: 500px;
+  overflow-x: scroll;
+  border: 1px solid #303030;
+}
+
+.ant-card.versions-card .summary-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ant-card.versions-card .version-item {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.version-no{
+    background-color: #FFFFFF14;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #FFFFFFD9;
+    max-width: 150px;
+}
+
+.version-no-value{
+    color: #FFFFFFD9;
+}

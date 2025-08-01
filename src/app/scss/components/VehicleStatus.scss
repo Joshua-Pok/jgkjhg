@@ -1,0 +1,18 @@
+.vehicle-status {
+  border-radius: 4px;
+  border: 1px solid #424242;
+  height: auto;
+  width: auto;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  
+}
+
+.vehicle-status-text {
+  font-weight: 600;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFFD9;
+}

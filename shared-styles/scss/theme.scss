@@ -1,0 +1,10 @@
+@import '_mixins.scss';
+@import '_variables.scss';
+
+body[data-theme="light-theme"] {
+  @include spread-map($theme-map-light);
+}
+
+body[data-theme="dark-theme"] {
+  @include spread-map($theme-map-dark);
+}
